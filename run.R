@@ -8,7 +8,7 @@ list.files('src/', pattern = "*.R", full.names = T, recursive = T) %>%
 
 
 # import absolute data -----
-load('dados/input/rdata/cities_indicators.RData')
+load('data/input/cities_indicators.RData')
 
 idgm <- generate_idgm(city_ind)
 
